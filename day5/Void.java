@@ -11,5 +11,7 @@ public class Void {
 	public static void main(String[] args) {
         ReceiptPrinter rp = new ReceiptPrinter();
         rp.printreceipt("Dhoni", 7777777);
+        
+        System.out.println();
     }
 }
