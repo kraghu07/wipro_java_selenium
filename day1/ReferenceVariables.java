@@ -12,8 +12,10 @@ public class ReferenceVariables {
     public static void main(String[] args) {
         int x = 10;
         int y = x;
+        System.out.println("y = " + y); // stays 10
         y = 20;
         System.out.println("x = " + x); // stays 10
+        System.out.println("y = " + y); // change from 10 to 20
         Person p1 = new Person("ayz");
         Person p2 = p1;
         p2.name = "abc";

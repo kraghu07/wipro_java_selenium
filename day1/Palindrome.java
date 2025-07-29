@@ -7,6 +7,7 @@ public class Palindrome {
         String s = sc.nextLine();
         String rev = new StringBuilder(s).reverse().toString();
         System.out.println(s + (s.equals(rev) ? " is a palindrome." : " is not."));
+        sc.close();
     }
 
 }

@@ -13,6 +13,7 @@ public class PrimeCheck {
             }
         }
         System.out.println(n + (isPrime ? " is prime." : " is not prime."));
+        sc.close();
     }
 }
 

@@ -1,5 +1,7 @@
 package day4;
 import java.util.Scanner;
+
+
 //Abstract class for RentCalculator
 abstract class RentCalculator {
 abstract void tax(double rent);
@@ -22,7 +24,7 @@ void tax(double r1) {
     System.out.println("Final House Rent: " + r2);
 }
 }
-public class Property {
+public class Property11 {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter your category (Apartment/House): ");

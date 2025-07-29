@@ -26,13 +26,13 @@ package day4;
 	}
 
 	public class LamdaRealEstate {
-	    static List<Property> properties = new ArrayList<>();
+	    static List<Property11> Property11 = new ArrayList<>();
 
 	    public static void main(String[] args) {
-	        properties.add(new Property("123 Main St", 250_000, 3));
-	        properties.add(new Property("456 Oak Ave", 150_000, 2));
-	        properties.add(new Property("789 Pine Rd", 500_000, 4));
-	        properties.add(new Property("321 Cedar Ln", 200_000, 3));
+	        Property11.add(new Property11("123 Main St", 250_000, 3));
+	        Property11.add(new Property11("456 Oak Ave", 150_000, 2));
+	        Property11.add(new Property11("789 Pine Rd", 500_000, 4));
+	        Property11.add(new Property11("321 Cedar Ln", 200_000, 3));
 
 	        // 1. Filter properties under $300k
 	      filterAndAct(p -> p.getPrice() < 300_000,
@@ -45,8 +45,8 @@ package day4;
 	                     p -> System.out.println("Schedule showing: " + p));
 	    }
 
-	    static void filterAndAct(Predicate<Property> tester, Consumer<Property> action) {
-	        for (Property p : properties) {
+	    static void filterAndAct(Predicate<Property11> tester, Consumer<Property11> action) {
+	        for (Property11 p : Property11) {
 	            if (tester.test(p)) {
 	                action.accept(p);
 	            }

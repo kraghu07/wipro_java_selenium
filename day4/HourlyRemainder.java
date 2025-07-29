@@ -1,8 +1,5 @@
 package day4;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
 public class HourlyRemainder {
 	public static void main(String[] args) {
 		String[] tasks= {
